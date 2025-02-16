@@ -1,8 +1,18 @@
-# React + Vite
+# SkipSense
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SkipSense is an engaging application designed to help students track their attendance and determine the number of classes they can skip while maintaining the required attendance percentage.
 
-Currently, two official plugins are available:
+## Features
+- Calculates the number of classes a student can skip in a semester.
+- Provides an intuitive and user-friendly interface.
+- Ensures students stay within attendance requirements.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- **React**: Used for building the interactive UI.
+- **Tailwind CSS**: Used for styling the application.
+- **useState Hook**: Manages state updates for attendance tracking.
+- **useContext Hook**: Provides a global state to manage attendance-related data efficiently.
+
+## Usage
+- Enter your total number of classes and required attendance percentage.
+- The app will calculate and display the number of classes you can skip.
