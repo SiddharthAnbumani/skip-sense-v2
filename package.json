@@ -3,13 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://SiddharthAnbumani.github.io/Skip-Sense",
+  "homepage": "https://SiddharthAnbumani.github.io/skip-sense-v2",
   "scripts": {
   "dev": "vite",
   "build": "vite build",
-  "lint": "eslint .",
   "preview": "vite preview",
-  "predeploy": "vite build",
+  "predeploy": "npm run build",
   "deploy": "gh-pages -d dist"
 },
   "dependencies": {

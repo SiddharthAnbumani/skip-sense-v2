@@ -6,8 +6,8 @@ import { ClassesContext } from './ClassesContext'
 
 function App() {
 
-  const [classes, setClasses] = useState(0)
-  const [tutorialHours, setTutorialHours] = useState(0)
+  const [classes, setClasses] = useState(null)
+  const [tutorialHours, setTutorialHours] = useState(null)
   const [totWeeklyClass, setTotWeeklyClass] = useState(null)
   const [totalSemClasses, setTotalSemClasses] = useState(null)
   const [skipNum, setSkipNum] = useState(null)
